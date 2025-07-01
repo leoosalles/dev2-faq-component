@@ -1,0 +1,131 @@
+html {
+    background-color: #E5E5E5;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 300px;
+    min-height: 347px;
+    border-radius: 21px;
+    box-shadow: 0 27px 49px -25px rgba(0, 0, 0, 0.3);
+}
+
+.faq-image {
+    position: absolute;
+    height: 146.5px;
+    width: 139px;
+    top: -50px
+}
+
+.faq-content {
+    margin-top: 110px;
+    padding: 0 15px;
+}
+
+.faq-heading {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.faq-item {
+    margin: 14px 0 15px;
+    border-bottom: 1px solid #D4D4D4;
+}
+
+article .faq-item:last-child {
+    border-bottom: none;
+}
+
+.faq-question {
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.faq-text {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+button {
+    border: none;
+    background-color: unset;
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-between;
+    border-width: 1px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.btn-details {
+    width: 15px;
+    height: 8.86px;
+    margin-right: 13px;
+    transition: transform .5s ease;
+}
+
+.open {
+    transform: rotate(180deg);
+    transition: transform .5s ease;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .3s ease-out;
+}
+
+@media (min-width: 768px) {
+    .faq-container {
+        width: 500px;
+    }
+
+    .faq-content {
+        padding: unset;
+        width: 400px;
+    }
+
+    button {
+        text-align: unset;
+        margin-bottom: unset;
+    }
+}
+
+@media (min-width: 992px) {
+    .faq-container {
+        justify-content: unset;
+        align-items: center;
+        width: 665px;
+    }
+
+    .faq-image {
+        position: absolute;
+        height: 293px;
+        width: 278px;
+        left: -90px;
+        top: unset;
+    }
+
+    .faq-content {
+        margin-top: unset;
+        width: 390px;
+        margin-left: 228px;
+    }
+
+    .faq-question:hover {
+        color: #F47C57;
+    }
+}

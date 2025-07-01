@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script type="text/javascript" src="./src/js/index.js" defer></script>
+    <title>Desafio HTML/CSS/JS - Intermediário</title>
+</head>
+
+<body>
+    <section class="faq-container" aria-label="Frequently Asked Questions">
+        <img src="./src/images/logo.png" class="faq-image" alt="Pessoa usando headset de realidade virtual e segurando dois controles, interagindo com um cubo laranja flutuante em um fundo com gradiente de cores quentes.">
+        <article class="faq-content">
+            <h2 class="faq-heading">FAQ</h2>
+            <div class="faq-item">
+                <h3 class="content-header">
+                    <button class="faq-question" aria-expanded="false" aria-controls="answer1" id="question1">
+                        Lorem ipsum dolor sit amet, consectetur? <img src="./src/images/details.png" class="btn-details" alt="Expandir respostas">
+                    </button>
+                </h3>
+                <div id="answer1" class="faq-answer" role="region" aria-labelledby="question1" hidden>
+                    <p class="faq-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis egestas ex, a elementum est. Mauris auctor nunc quis erat.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3 class="content-header">
+                    <button class="faq-question" aria-expanded="false" aria-controls="answer2" id="question2">
+                        Lorem ipsum dolor sit amet? <img src="./src/images/details.png" class="btn-details" alt="Expandir respostas">
+                    </button>
+                </h3>
+                <div id="answer2" class="faq-answer" role="region" aria-labelledby="question2" hidden>
+                    <p class="faq-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis egestas ex, a elementum est. Mauris auctor nunc quis erat.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3 class="content-header">
+                    <button class="faq-question" aria-expanded="false" aria-controls="answer3" id="question3">
+                        Lorem ipsum dolor sit? <img src="./src/images/details.png" class="btn-details" alt="Expandir respostas">
+                    </button>
+                </h3>
+                <div id="answer3" class="faq-answer" role="region" aria-labelledby="question3" hidden>
+                    <p class="faq-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis egestas ex, a elementum est. Mauris auctor nunc quis erat.</p>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+
+</html>
