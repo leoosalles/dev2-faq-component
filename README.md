@@ -2,8 +2,6 @@
 
 This project is a responsive and accessible **FAQ (Frequently Asked Questions)** section built with **HTML5**, **CSS3**, and **Vanilla JavaScript**. It was designed to provide an inclusive, visually appealing, and keyboard-navigable interface — especially for users relying on screen readers or non-pointer devices.
 
-![FAQ Demo](./src/images/demo.gif) <!-- Replace with actual demo GIF -->
-
 ---
 
 ## 📌 Features
