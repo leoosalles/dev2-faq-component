@@ -24,15 +24,15 @@ This project is a responsive and accessible **FAQ (Frequently Asked Questions)**
 <br>
 ┃ ┗ 📄 style.css
 <br>
+┣ 📂 images/
+<br>
+┃ ┗ 🖼️ details.png
+<br>
+┃ ┣ 🖼️ logo.png
+<br>
 ┣ 📂 js/
 <br>
 ┃ ┗ 📄 index.js
-<br>
-┣ 📂 images/
-<br>
-┃ ┣ 📄 logo.png
-<br>
-┃ ┗ 📄 details.png
 <br>
 📄 index.html
 
