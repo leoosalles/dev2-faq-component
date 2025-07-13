@@ -26,9 +26,9 @@ This project is a responsive and accessible **FAQ (Frequently Asked Questions)**
 <br>
 ┣ 📂 images/
 <br>
-┃ ┗ 🖼️ details.png
+┃ ┣ 🖼️ details.png
 <br>
-┃ ┣ 🖼️ logo.png
+┃ ┗ 🖼️ logo.png
 <br>
 ┣ 📂 js/
 <br>
